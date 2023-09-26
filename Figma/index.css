@@ -1,0 +1,219 @@
+/* General */
+body {
+  font-size: 100%;
+  margin: 0;
+}
+
+.normal-text {
+  font-size: 100%;
+  font-family: "El Messiri";
+  color: #7a7a7a !important;
+}
+
+.heading-text {
+  font-size: 200%;
+  font-family: "El Messiri";
+  color: black !important;
+  font-weight: bold;
+}
+
+.section {
+  width: 100%;
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Menu bar*/
+#menubar {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  right: 0;
+  padding-top: 20px;
+  top: 0;
+}
+
+#menubar .menu-item {
+  display: inline;
+}
+
+#menubar .menu-item a {
+  font-size: 20px;
+  color: #7a7a7a;
+  padding: 0 2%;
+  text-decoration: none;
+  float: right;
+}
+
+#menu-logo {
+  display: inline;
+}
+
+#menu-logo .image {
+  width: 88px;
+  height: 40px;
+  background-image: url(logo_small.png);
+  display: inline-block;
+  padding: 0 2%;
+}
+
+/* Home */
+#home-section {
+  background-size: contain;
+  background-image: url(home_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: 0;
+}
+
+#home-title {
+  width: fit-content;
+  position: relative;
+  top: 30%;
+  left: 60%;
+}
+
+#about-title {
+  text-align: center;
+}
+
+#about-sub-sections {
+  height: 100%;
+  padding: 0 5%;
+  position: relative;
+}
+
+.about-sub-image {
+  width: 50%;
+  height: 120%;
+  display: inline-block;
+}
+
+.about-sub-text {
+  width: 50%;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+}
+
+#about-1 {
+  width: 100%;
+  height: 35%;
+  top: 0;
+  position: relative;
+}
+
+#about-1 .about-sub-image {
+  background-image: url(about_1.png);
+}
+
+#about-2 {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+
+#about-2 .about-sub-image {
+  background-image: url(about_2.png);
+  float: right;
+}
+
+#about-2.about-sub-text {
+  text-align: right;
+}
+
+#contact-title {
+  text-align: center;
+}
+
+#contact-sub-sections {
+  width: 30%;
+  position: relative;
+  left: 35%;
+  padding: 5% 5%;
+}
+
+#contact-sub-sections p {
+  position: absolute;
+  top: 25;
+  display: inline-block;
+  margin: 0;
+  padding: 0 201;
+}
+
+#contact-phone .image {
+  background-image: url(icon_phone.png);
+}
+
+#contact-email .image {
+  background-image: url(icon_mail.png);
+}
+
+#contact-location .image {
+  background-image: url(icon_location.png);
+}
+
+#contact-phone,
+#contact-emai,
+#contact-location {
+  position: relative;
+}
+
+#contact-sub-sections .image {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+
+#footer {
+  background-color: #5d8cff;
+  position: relative;
+  bottom: 0;
+  padding: 2% 20%;
+}
+
+#footer div {
+  color: white !important;
+  height: 150px;
+}
+
+#footer-logo {
+  display: inline-block;
+}
+
+#footer-logo .image {
+  width: 200px;
+  height: 100px;
+  background-image: url(logo_big.png);
+}
+
+#footer-copyright {
+  text-align: center;
+  color: white;
+  text-decoration-line: none;
+}
+
+#footer-links {
+  display: inline-block;
+  padding: 2% 0 2% 50%;
+}
+
+#footer-links p {
+  text-decoration: underline;
+}
+
+#footer-links a {
+  display: block;
+  text-decoration: none;
+  color: white !important;
+}
